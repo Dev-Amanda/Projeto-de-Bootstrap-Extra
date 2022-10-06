@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Porfolio Website With Typing Effect</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Portifolio<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="#">Casa</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Habilidades</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i style="color: black;" class="fa fa--linkedin"></i></a>
+                <a href="#"><i class="fab fa--instagram"></i></a>
+                <a href="#"><i class="fab fa--twitter"></i></a>
+            </div>
+        </nav>
+       
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Olá</span>
+                <h2>Eu sou <span class="multiText">Coder</span></h2>
+                <p> 🔭No momento estou estudando ADS na Unidade Uninove 
+                    e no Instituto Proa
+                    <br>
+                    🤝 Programação em Java
+                    <br>
+                    🌱 Atualmente estou aprendendo React</p>
+                <div class="btns">
+                    <button>baixar currículo</button>
+                    <button>contrate-me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="image 1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings: ["coder","Coder","designer"],
+            loop: true,
+            typeSpeed:90,
+            backDelay: 1500
+        })
+        console.log(typingEffect)
+    </script>
+</body>
+</html>
